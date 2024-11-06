@@ -1,0 +1,59 @@
+body {
+    background: rgb(171, 224, 238);
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(12, 12, 212);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(12, 12, 212);
+    margin: 1%;
+}
+
+ul {
+    color: rgb(12, 15, 189);
+    margin: 1%;
+}
+
+ol {
+    color: rgb(12, 15, 189);
+    margin: 1%;
+}
+
+a {
+    color: darkblue;
+    margin: 1%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    background: rgb(97, 197, 243);
+    margin: 6%;
+    border-radius: 3%;
+    padding: 1%;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    background: rgb(97, 197, 243);
+    margin: 6%;
+    text-align: center;
+    border-radius: 3%;
+    padding: 1%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+}
