@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>lab 4</title>
+    <title>lab 4-5</title>
     <link rel="stylesheet" href="../style/table.css" />
 </head>
 
@@ -25,33 +25,48 @@
             <td>1</td>
             <td>Иванов</td>
             <td>Петр</td>
-            <td>заочная</td>
+            <td>Заочная</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Петров</td>
             <td>Сергей</td>
-            <td>очная</td>
+            <td>Очная</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Сидоров</td>
             <td>Иван</td>
-            <td>очная</td>
+            <td>Очная</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Воронцов</td>
             <td>Павел</td>
-            <td>заочная</td>
+            <td>Заочная</td>
         </tr>
         <tr>
             <td>5</td>
             <td>Михайлова</td>
             <td>Софья</td>
-            <td>очная</td>
+            <td>Очная</td>
         </tr>
     </table>
+    <div class="container"><form>
+        <label for="id">Id:</label>
+        <input type="text" id="id" name="id" value="1"><br>
+        <label for="fname">Имя:</label>
+        <input type="text" id="fname" name="fname" value="Иван"><br>
+        <label for="lname">Фамилия: </label>
+        <input type="text" id="lname" name="lname" value="Иванов"><br>
+        <label for="form">Форма обучения:</label>
+        <select id="form" name="form">
+            <option value="1">Очная</option>
+            <option value="1">Заочная</option>
+        </select>
+        <br>
+        <input type="submit" value="Добавить">
+    </form>
 </body>
 
 </html>
