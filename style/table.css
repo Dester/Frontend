@@ -1,0 +1,47 @@
+body {
+    background: rgb(171, 224, 238);
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(12, 12, 212);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(12, 12, 212);
+    margin: 1%;
+}
+
+a {
+    color: darkblue;
+    margin: 1%;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    background: rgb(97, 197, 243);
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 1%;
+}
+
+th, td {
+    background:rgb(152, 215, 245);
+}
+
+th{
+    background: rgb(97, 197, 243);;
+    text-align: left;
+}
+
+caption {
+    color: rgb(12, 12, 212);
+    margin: 1%;
+    font-size: 20px;
+}
